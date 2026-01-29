@@ -30,6 +30,7 @@ const Dashboard = () => {
     window.addEventListener('resize', checkMobile);
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
+
   // Generate data for stacked bar chart with 15-minute intervals using real values
   const generateChartData = () => {
     const times = [];
@@ -79,6 +80,7 @@ const Dashboard = () => {
   };
 
   const chartData = generateChartData();
+  
   const styles = {
     container: {
       display: 'flex',
