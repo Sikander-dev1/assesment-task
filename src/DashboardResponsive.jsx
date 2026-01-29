@@ -135,7 +135,7 @@ const Dashboard = () => {
     },
     cardsGrid: {
       display: 'grid',
-      gridTemplateColumns: isMobile ? '1fr' : 'repeat(auto-fit, minmax(250px, 1fr))',
+      gridTemplateColumns: isMobile ? '1fr' : 'repeat(4, 1fr)',
       gap: '12px',
       marginBottom: '16px'
     },
